@@ -3,8 +3,28 @@
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
       <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="rdc-snapshots" />
+      <option name="name" value="rdc-snapshots" />
+      <option name="url" value="https://packages.aliyun.com/maven/repository/2263698-snapshot-pmbpAp/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="rdc-releases" />
+      <option name="name" value="rdc-releases" />
+      <option name="url" value="https://packages.aliyun.com/maven/repository/2263698-release-5EQ15r/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="apache.snapshots" />
+      <option name="name" value="Apache Development Snapshot Repository" />
+      <option name="url" value="https://repository.apache.org/content/repositories/snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -25,6 +45,11 @@
       <option name="id" value="nexus" />
       <option name="name" value="nexus" />
       <option name="url" value="http://172.168.10.194:8081/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots" />
+      <option name="name" value="snapshots" />
+      <option name="url" value="https://maven.aliyun.com/nexus/content/groups/public" />
     </remote-repository>
   </component>
 </project>
