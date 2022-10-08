@@ -1,0 +1,23 @@
+## db.setting文件
+
+# 本地测试环境
+ url = jdbc:oracle:thin:@//172.168.10.11:1521/orcl
+
+# 线上测试环境
+# url = jdbc:oracle:thin:@//113.133.178.21:9526/orcl
+# url = jdbc:oracle:thin:@localhost:1521:orcl
+# url = jdbc:oracle:thin:@192.168.1.147:1521/orcl.microdone.cn
+
+user = zh_gw
+pass = zh_gw
+driver = oracle.jdbc.OracleDriver
+
+## 可选配置
+# 是否在日志中显示执行的SQL
+showSql = true
+# 是否格式化显示的SQL
+formatSql = false
+# 是否显示SQL参数
+showParams = true
+# 打印SQL的日志等级，默认debug，可以是info、warn、error
+sqlLevel = debug
